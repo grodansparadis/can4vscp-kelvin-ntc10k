@@ -23,18 +23,18 @@
  */
 
 
-#include "vscp_compiler.h"
-#include "vscp_projdefs.h"
+#include "vscp-compiler.h"
+#include "vscp-projdefs.h"
 
 #include <p18cxxx.h>
 #include <timers.h>
 #include <adc.h>
 #include <math.h>
-#include <vscp_inttypes.h>
+#include <vscp-inttypes.h>
 #include <ECAN.h>
 #include <vscp-firmware.h>
-#include <vscp_class.h>
-#include <vscp_type.h>
+#include <vscp-class.h>
+#include <vscp-type.h>
 #include "main.h" 
 #include "version.h"
 #include "ntc.h"

@@ -23,8 +23,8 @@
  * ******************************************************************************
  */
 
-#include "vscp_compiler.h"
-#include "vscp_projdefs.h"
+#include "vscp-compiler.h"
+#include "vscp-projdefs.h"
 
 #include <p18cxxx.h>
 #include <float.h>

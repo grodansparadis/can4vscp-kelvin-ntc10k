@@ -25,7 +25,7 @@
 #ifndef NTC_H
 #define NTC_H
 
-#include <vscp_inttypes.h>
+#include <vscp-inttypes.h>
 #include "main.h"
 
 // Defines the number of samples that is taken for each sensor

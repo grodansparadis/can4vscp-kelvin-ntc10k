@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/akhe/development/VSCP/vscp-firmware/common/vscp-firmware.c</file>
+            <file>file:/home/akhe/development/VSCP/can4vscp_kelvin_ntc10k/main.c</file>
+            <file>file:/home/akhe/development/VSCP/can4vscp_kelvin_ntc10k/ntc.h</file>
+            <file>file:/home/akhe/development/VSCP/can4vscp_kelvin_ntc10k/ECAN.c</file>
+            <file>file:/home/akhe/development/VSCP/can4vscp_kelvin_ntc10k/ntc.c</file>
+        </group>
     </open-files>
 </project-private>
