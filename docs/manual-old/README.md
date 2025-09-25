@@ -286,7 +286,7 @@ New firmware is released from time to time for all our modules. We expect this t
 
 ## Where is the source for the firmware?
 
-You can find the latest source for the firmware [here](https///github.com/grodansparadis/can4vscp_kelvin_ntc10k/releases). **You should use the relocated version of the firmware.**
+You can find the latest source for the firmware [here](https///github.com/grodansparadis/can4vscp-kelvin-ntc10k/releases). **You should use the relocated version of the firmware.**
 
 
 ## Step by step update process

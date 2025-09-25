@@ -10,7 +10,7 @@ This project is part of the <a href="http://www.vscp.org">VSCP (Very Simple Cont
 
 This module is part of the [VSCP project](https://www.vscp.org).  It is free to use, modify and sell. The only thing we kindly ask is that improvements and extensions are contributed back to the project (at your will). This to make the project better for everyone. All design files is licensed under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-The full documentation for the module can be found [here](http://grodansparadis.github.io/can4vscp_kelvin_ntc10k/#/).
+The full documentation for the module can be found [here](http://grodansparadis.github.io/can4vscp-kelvin-ntc10k/#/).
 
 ![](./images/kelvin11.png)
 
@@ -41,7 +41,7 @@ All VSCP modules contains information of there own setup, manual, hardware versi
 ## Project files
 
 ### User manual
-  * [User Manual](https://grodansparadis.github.io/can4vscp_kelvin_ntc10k/#)
+  * [User Manual](https://grodansparadis.github.io/can4vscp-kelvin-ntc10k/#)
 
 ### Schematic, PCB, 3D files etc
   * [Schematics reversion A](https://raw.githubusercontent.com/grodansparadis/can4vscp_accra/refs/heads/master/eagle/accra_sch_rev_A.png)
@@ -53,7 +53,7 @@ All VSCP modules contains information of there own setup, manual, hardware versi
 
  The firmware is developed in [MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) using the [XC8 compiler](https://www.microchip.com/mplab/compilers).
 
-  * Binary release files is available [here](https://github.com/grodansparadis/can4vscp_kelvin_ntc10k/releases)
+  * Binary release files is available [here](https://github.com/grodansparadis/can4vscp-kelvin-ntc10k/releases)
 
 ### MDF - Module Description File(s)
   * [MDF file version: 1.2.0 Release date: 2015-02-18](http://www.eurosource.se/ntc10KA_3.xml)
@@ -61,7 +61,7 @@ All VSCP modules contains information of there own setup, manual, hardware versi
   * [MDF file version: 1.0.0 Release date: 2012-02-24](http://www.eurosource.se/ntc10KA_1.xml)
 
 ### Support
-If you need support, please open an issue in the [GitHub repository](https://github.com/grodansparadis/can4vscp_kelvin_ntc10k/issues).
+If you need support, please open an issue in the [GitHub repository](https://github.com/grodansparadis/can4vscp-kelvin-ntc10k/issues).
 
 ### Buy a ready made modules
 You can buy a ready made module from [Grodans Paradis](http://www.grodansparadis.com).

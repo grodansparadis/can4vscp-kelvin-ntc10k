@@ -2,7 +2,7 @@
 
 ## Most current information
 
-You can find the most current information about the Kelvin NTC10K module [here](https://github.com/grodansparadis/can4vscp_kelvin_ntc10k). On the site you can also find links to the latest firmware, drivers and schematics etc for its use.
+You can find the most current information about the Kelvin NTC10K module [here](https://github.com/grodansparadis/can4vscp-kelvin-ntc10k). On the site you can also find links to the latest firmware, drivers and schematics etc for its use.
 
 ## Installing the module
 

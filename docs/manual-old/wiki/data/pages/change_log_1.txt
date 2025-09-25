@@ -1,6 +1,6 @@
 ====== Change Log for Kelvin NTC10K ======
 
-The changelog for firmware can be read [[https://github.com/grodansparadis/can4vscp_kelvin_ntc10k/blob/master/HISTORY.txt|here]].\\ 
+The changelog for firmware can be read [[https://github.com/grodansparadis/can4vscp-kelvin-ntc10k/blob/master/HISTORY.txt|here]].\\ 
 
 ===== Documentation changes ======
 
