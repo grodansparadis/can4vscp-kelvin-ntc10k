@@ -76,7 +76,7 @@ Another bit, bit 6, in the control register decides when the TurnOff/TurnOn even
 
 ![](./images/limits.png)
 
-The picture shows a real world example where a Kelvin NTC10K module measures temperature in a fridge which have its compressor controlled by a [[http://www.grodansparadis.com/paris/paris.html|Paris relay module]]. The [Paris decision matrix](http://grodansparadis.github.io/can4vscp_paris/#/./decisionmatrix) is programmed to turn on the compressor when TurnOn events is received from the the zone/subzone programmed into the Kelvin NTC10K module sensor that measure the fridge temperature.
+The picture shows a real world example where a Kelvin NTC10K module measures temperature in a fridge which have its compressor controlled by a [[http://www.grodansparadis.com/paris/paris.html|Paris relay module]]. The [Paris decision matrix](http://grodansparadis.github.io/can4vscp-paris/#/./decisionmatrix) is programmed to turn on the compressor when TurnOn events is received from the the zone/subzone programmed into the Kelvin NTC10K module sensor that measure the fridge temperature.
 
 So here TurnOff events are sent by the Kelvin NTC10K module when the temperature go below -22 degrees Celsius. This event is received by the Paris module and it turn of the relay that controls the fridge compressor. Continuous mode is activated so the TurnOff events are sent until the temperature reach -20 degrees Celsius. A function to protect against events not being delivered.
 

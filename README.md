@@ -14,7 +14,7 @@ The full documentation for the module can be found [here](http://grodansparadis.
 
 ![](./images/kelvin11.png)
 
-In this repository you find all development files for the Kelvin NTC10K module. The project together with the [Paris Relay Module](https://github.com/grodansparadis/can4vscp_paris) is the main examples for a VSCP implemention on a Microchip 18F PIC device.
+In this repository you find all development files for the Kelvin NTC10K module. The project together with the [Paris Relay Module](https://github.com/grodansparadis/can4vscp-paris) is the main examples for a VSCP implemention on a Microchip 18F PIC device.
 
 ## Abstract
 
