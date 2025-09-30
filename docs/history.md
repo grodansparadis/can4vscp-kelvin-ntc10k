@@ -1,10 +1,7 @@
-# Change Log for Accra
+# Change Log for Kelvin NTC10K module
 
 Change log for the module is at
-[here](https://github.com/grodansparadis/can4vscp-paris/blob/master/HISTORY.txt)
-
-| 250113 | akhe | Fixed some links |
-| 220602 | akhe | Transferred to Markdown format |
+[here](https://github.com/grodansparadis/can4vscp-kelvin-ntc10k/blob/master/HISTORY.txt)
 
   
 [filename](./bottom-copyright.md ':include')
