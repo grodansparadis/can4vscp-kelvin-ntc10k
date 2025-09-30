@@ -11,7 +11,7 @@
 		This module can report temperature from up to six temperature sensors. One sensor
 		is located on board and five are external to the module.
 	</description>
-  	<infourl>http://www.grodansparadis.com/kelvinntc10k/kelvin_ntc10ka.html</infourl>
+  	<infourl>http://www.grodansparadis.com/kelvinntc10k/kelvin-ntc10ka.html</infourl>
   	<buffersize>8</buffersize>
 	<manufacturer>
 		<name>Grodans Paradis AB</name>
@@ -82,7 +82,7 @@
 	</firmware>
 	
 	<firmware target="pic18f2580" 
-	        path="http://www.grodansparadis.com/kelvin/firmware_kelvin_ntc10ka_1_2_0.hex" 
+	        path="http://www.grodansparadis.com/kelvin/firmware_kelvin-ntc10ka_1_2_0.hex" 
 		format="intelhex8"
 		size="32000"
 		date="2015-02-18"
@@ -97,7 +97,7 @@
 	</files>
 
 	<!-- Full documentation for the device -->
-	<manual path="http://www.grodansparadis.com/kelvin/kelvin_ntc10ka_manual_11.pdf" 	
+	<manual path="http://www.grodansparadis.com/kelvin/kelvin-ntc10ka_manual_11.pdf" 	
 		lang="en"
 		format="pdf">
     	<description lang="en" >

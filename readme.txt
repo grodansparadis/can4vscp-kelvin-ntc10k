@@ -1,6 +1,6 @@
 This is the readme file for the Kelvin NTC10KA project. This project is also the base for a VSCP 
 implementation on a Microchip 18F PIC device. This is a commercial module that can bought from 
-Grodans Paradis ( see http://www.auto.grodansparadis.com/kelvinntc10k/kelvin_ntc10ka.html)
+Grodans Paradis ( see http://www.auto.grodansparadis.com/kelvinntc10k/kelvin-ntc10ka.html)
 
 The processor used is the Microchip PIC18F2580 or PIC18F25K80
 

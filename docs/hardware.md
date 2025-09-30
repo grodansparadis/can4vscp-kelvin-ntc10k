@@ -43,7 +43,7 @@ The **daisy chain** connector is described below.
 
 The firmware of a circuit equipped with a Microchip microprocessor usually can be programmed in circuit. That is when it is mounted on a printed circuit board. This is also true for the Paris relay module which have the programming connector on-board (J3). The **programming
 connector** is used to reprogram the module. This is more convenient to do using the bootloader software but in debugging or if the bootloader has gotten corrupt connecting a standard Microchip PIC programmer to this connector is the only way to reprogram the module. If you have a programmer for Microchip processors (Real ICE, ICD-2, ICD-3, PICKIT-2, PICKIT3 or other) you can program your own firmware or the latest official firmware into the module using MPLABX or similar tools. You can always find a link to the latest firmware on the [Kelvin NTC10K module
-home page](https://www.grodansparadis.com/kelvinntc10k/kelvin_ntc10ka.html).
+home page](https://www.grodansparadis.com/kelvinntc10k/kelvin-ntc10ka.html).
 
 ![](./images/kelvin_parts_b.png)
 
@@ -131,7 +131,7 @@ Always use a pair of twisted wires for CANH/CANL for best noise immunity. If the
 
 The inter module connector can be used to connect modules that are physically close to each other together in an easy way. Remember that the minimum length of a connection cable is 30 cm.
 
-The **daisy chain connector** is an alternative to the RJ-45 connector and can be a very convenient way to connect boards together that are mounter close to each other, in the same cabinet for example. The [power injector board](http://www.grodansparadis.com/pwrinjectcan/pwrinjectcan.html) is a perfect companion for this use.
+The **daisy chain connector** is an alternative to the RJ-45 connector and can be a very convenient way to connect boards together that are mounter close to each other, in the same cabinet for example. The [power injector board](https://github.com/grodansparadis/can4vscp-power-injector) is a perfect companion for this use.
 
 | Pin | Description |
 | :---: | ----------- |

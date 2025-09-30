@@ -27,7 +27,7 @@ A good tool for calibration is available on [this page](http://www.thinksrs.com/
 
 ## Zones and sub zones
 
-Zones and sub zones are used to group things together. Normally you don't address events to a certain receiver in VSCP ([CLASS1.PROTOCOL](http://www.vscp.org/docs/vscpspec/doku.php?id=class1.protocol) being the exception that prove this rule). Instead you report/send things to a group of modules defined by a zone and a sub zone. The sender have no knowledge of how many units this zone/sub zone consist of. Well it does not even care.
+Zones and sub zones are used to group things together. Normally you don't address events to a certain receiver in VSCP ([CLASS1.PROTOCOL](https://grodansparadis.github.io/vscp-doc-spec/#/./class1.protocol) being the exception that prove this rule). Instead you report/send things to a group of modules defined by a zone and a sub zone. The sender have no knowledge of how many units this zone/sub zone consist of. Well it does not even care.
 
 Zone and sub zone for the module can be set in the  (module zone registers)[./registers?id=module-zone-registers]. But more useful than the module zone sub zone is the zone information for each individual sensor that is available in the (sensor zone registers)[./registers?id=sensor-zone-information-registers]. Here you can specify the zone/sub zone units you think is interested in this event. You can also set them both (or one of them) to 0xff meaning all zones, sub zones.
 
@@ -76,7 +76,7 @@ Another bit, bit 6, in the control register decides when the TurnOff/TurnOn even
 
 ![](./images/limits.png)
 
-The picture shows a real world example where a Kelvin NTC10K module measures temperature in a fridge which have its compressor controlled by a [[http://www.grodansparadis.com/paris/paris.html|Paris relay module]]. The [Paris decision matrix](http://grodansparadis.github.io/can4vscp-paris/#/./decisionmatrix) is programmed to turn on the compressor when TurnOn events is received from the the zone/subzone programmed into the Kelvin NTC10K module sensor that measure the fridge temperature.
+The picture shows a real world example where a Kelvin NTC10K module measures temperature in a fridge which have its compressor controlled by a [Paris relay module](http://www.grodansparadis.com/paris/paris.html). The [Paris decision matrix](http://grodansparadis.github.io/can4vscp-paris/#/./decisionmatrix) is programmed to turn on the compressor when TurnOn events is received from the the zone/subzone programmed into the Kelvin NTC10K module sensor that measure the fridge temperature.
 
 So here TurnOff events are sent by the Kelvin NTC10K module when the temperature go below -22 degrees Celsius. This event is received by the Paris module and it turn of the relay that controls the fridge compressor. Continuous mode is activated so the TurnOff events are sent until the temperature reach -20 degrees Celsius. A function to protect against events not being delivered.
 
